@@ -1,0 +1,36 @@
+.mainAbout{
+  background: linear-gradient(to right,white 0%, white 50%, rgba(0,143,84,0.9948354341736695) 50%, rgba(0,143,84,0.9948354341736695) 100%);  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.leftCol{
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 15rem;
+  color:rgb(0,143,84);
+  overflow-x: hidden;
+
+}
+
+.rightCol{
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 15rem;
+  color:white;
+  font-size: 4rem;
+  overflow-x: hidden;
+}
+
+.slidingText {
+  display: flex;
+  flex-direction: row;
+  gap:5rem;
+  white-space: nowrap;
+}

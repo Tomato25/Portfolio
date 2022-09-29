@@ -1,0 +1,10 @@
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:2rem;
+    position:absolute;
+    bottom:0;
+    margin-bottom: 3rem;
+  }
